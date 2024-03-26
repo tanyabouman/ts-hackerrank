@@ -1,4 +1,5 @@
 'use strict';
+// https://www.hackerrank.com/challenges/triple-sum/problem
 // Complete the triplets function below.
 function triplets(a, b, c) {
     const setA = new Set(a);
@@ -21,7 +22,6 @@ function triplets(a, b, c) {
             r++;
         }
         numTriplets+=p*r;
-        console.log(p,q,r)
     }
 
     // only two cases are too slow
